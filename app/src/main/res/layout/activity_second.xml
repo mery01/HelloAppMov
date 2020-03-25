@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    android:padding="48dp">
+
+    <ImageButton
+        android:id="@+id/button_Activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="#000000"
+        android:contentDescription="@string/imageButton_activity"
+        android:padding="10dp"
+        android:src="@mipmap/ic_activity_foreground" />
+
+    <ImageButton
+        android:id="@+id/button_List"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="50dp"
+        android:background="#000000"
+        android:contentDescription="@string/imageButton_List"
+        android:padding="10dp"
+        android:src="@mipmap/ic_list_foreground" />
+
+    <ImageButton
+        android:id="@+id/button_Water"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:contentDescription="@string/imageButton_water"
+        android:layout_below="@id/button_Activity"
+        android:padding="10dp"
+        android:src="@mipmap/ic_water_foreground" />
+
+    <ImageButton
+        android:id="@+id/button_Recycle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_List"
+        android:layout_alignParentEnd="true"
+        android:background="#000000"
+        android:contentDescription="@string/imageButton_recycle"
+        android:padding="10dp"
+        android:src="@mipmap/ic_recycle_foreground" />
+
+    <ImageButton
+        android:id="@+id/button_Transport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_Water"
+        android:background="#000000"
+        android:contentDescription="@string/imageButton_transport"
+        android:padding="10dp"
+        android:src="@mipmap/ic_transport_foreground" />
+
+    <ImageButton
+        android:id="@+id/button_Weather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/button_Recycle"
+        android:background="#000000"
+        android:contentDescription="@string/imageButton_weather"
+        android:padding="10dp"
+        android:src="@mipmap/ic_weather_foreground" />
+
+
+
+</RelativeLayout>
